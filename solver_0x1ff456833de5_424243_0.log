@@ -1,0 +1,57 @@
+
+[93mACE v2.1 [0m
+
+  [94minstance[0m
+    name:SocialGolferProblem
+
+  Loading variables...
+
+  Loading constraints...
+
+  [94mdomains[0m
+    types:1  values:108  sizes:[3:36]
+  [94mvariables[0m
+    count:36  arrays:1  degrees:[27:4,28:18,29:14]
+  [94mconstraints[0m
+    count:231  specific:15  groups:2  arities:[4:216,8:8,9:4,18:3]
+    distribution:[Cardinality:4,ConstraintIntension:216,LexicographicLE:11]
+    intStructures:(1,shared:215)
+    wck:0.67  cpu:1.485  mem:37M684
+
+  Building solver... 
+
+  [94msolver[0m
+    guaranteedAC:true
+    wck:0.72  cpu:1.53  mem:40M304
+
+  [94mpreprocessing[0m
+    revisions:(864,useless=864)  values:108  unsat:false
+    wck:0.01  cpu:1.547  mem:40M830
+
+    run0  dpts:-1..35  effs:36  wck:0.00  sols:1
+
+  [94mglobal[0m
+    effs:36  revisions:(3569,useless=3538)
+    stop:REACHED_GOAL  sols:1  sol1Cpu:1.558
+    wck:0.77  cpu:1.574  mem:41M879
+
+
+  Solution 1 in JSON format:
+   {
+    x: [
+     [0, 0, 0, 1, 1, 1, 2, 2, 2],
+     [0, 1, 2, 0, 1, 2, 0, 1, 2],
+     [0, 1, 2, 1, 2, 0, 2, 0, 1],
+     [0, 1, 2, 2, 0, 1, 1, 2, 0]
+    ]
+   }
+
+[92ms SATISFIABLE[0m
+[92m
+v[0m <instantiation id='sol1' type='solution'> <list> x[][] </list> <values> 0x3 1x3 2x3 0 1 2 0 1 2 0 1 2 0 1 2 1 2 0 2 0 1 0 1 2 2 0 1 1 2 0 </values> </instantiation>
+[92m
+d WRONG DECISIONS[0m 0
+[92md FOUND SOLUTIONS[0m 1
+[91md INCOMPLETE EXPLORATION[0m
+
+c real time : 1.609

@@ -1,0 +1,96 @@
+
+[93mACE v2.1 [0m
+
+  [94minstance[0m
+    name:ipykernel_launcher
+
+  Loading variables...
+
+  Loading constraints...
+
+  [94mdomains[0m
+    types:1  values:108  sizes:[3:36]
+  [94mvariables[0m
+    count:36  arrays:1  degrees:[24:1,27:1,30:1,32:1...45:2,46:2,47:1,48:12]
+  [94mconstraints[0m
+    count:432  groups:2  arities:[3:216,4:216]
+    distribution:[ConstraintIntension:432]
+    intStructures:(2,shared:430)
+    wck:1.00  cpu:2.07  mem:57M609
+
+  Building solver... 
+
+  [94msolver[0m
+    guaranteedAC:true
+    wck:1.07  cpu:2.135  mem:60M755
+
+  [94mpreprocessing[0m
+    revisions:(1512,useless=1512)  values:108  unsat:false
+    wck:0.011  cpu:2.153  mem:61M803
+
+    run0  dpts:6..10  effs:223  fails:10  wrgs:20  wck:0.00  ngds:2
+    run1  dpts:3..11  effs:306  fails:21  wrgs:37  wck:0.06  ngds:8
+    run2  dpts:4..13  effs:473  fails:33  wrgs:56  wck:0.07  ngds:13
+    run3  dpts:3..11  effs:771  fails:46  wrgs:79  wck:0.08  ngds:19
+    run4  dpts:6..12  effs:984  fails:60  wrgs:103  wck:0.09  ngds:21
+    run5  dpts:5..11  effs:1262  fails:76  wrgs:131  wck:0.10  ngds:25
+    run6  dpts:8..15  effs:1627  fails:93  wrgs:161  wck:0.12  ngds:29
+    run7  dpts:4..14  effs:2020  fails:112  wrgs:195  wck:0.13  ngds:34
+    run8  dpts:4..9  effs:2780  fails:133  wrgs:233  wck:0.14  ngds:41
+    run9  dpts:4..10  effs:3506  fails:156  wrgs:276  wck:0.16  ngds:43
+    run10  dpts:4..10  effs:4350  fails:181  wrgs:320  wck:0.17  ngds:46
+    run11  dpts:4..10  effs:5115  fails:209  wrgs:368  wck:0.19  ngds:49
+    run12  dpts:3..8  effs:5987  fails:240  wrgs:418  wck:0.21  ngds:54
+    run13  dpts:4..11  effs:6922  fails:274  wrgs:480  wck:0.23  ngds:58
+    run14  dpts:3..13  effs:7765  fails:311  wrgs:545  wck:0.24  ngds:64
+    run15  dpts:3..11  effs:8932  fails:352  wrgs:610  wck:0.26  ngds:69
+    run16  dpts:4..11  effs:10179  fails:397  wrgs:689  wck:0.27  ngds:73
+    run17  dpts:3..10  effs:11489  fails:447  wrgs:772  wck:0.28  ngds:79
+    run18  dpts:4..11  effs:12803  fails:502  wrgs:863  wck:0.29  ngds:87
+    run19  dpts:4..11  effs:14323  fails:563  wrgs:974  wck:0.31  ngds:92
+    run20  dpts:4..11  effs:16008  fails:630  wrgs:1090  wck:0.34  ngds:100
+    run21  dpts:3..10  effs:17993  fails:704  wrgs:1216  wck:0.36  ngds:102
+    run22  dpts:4..11  effs:19667  fails:785  wrgs:1335  wck:0.39  ngds:110
+    run23  dpts:3..12  effs:22085  fails:874  wrgs:1500  wck:0.41  ngds:111
+    run24  dpts:3..11  effs:24632  fails:972  wrgs:1683  wck:0.43  ngds:117
+    run25  dpts:2..11  effs:27833  fails:1080  wrgs:1877  wck:0.46  ngds:120
+    run26  dpts:3..11  effs:31116  fails:1199  wrgs:2087  wck:0.49  ngds:126
+    run27  dpts:2..11  effs:34649  fails:1330  wrgs:2323  wck:0.53  ngds:130
+    run28  dpts:3..11  effs:38718  fails:1474  wrgs:2584  wck:0.57  ngds:133
+    ...resetting weights (nValues: 108)
+    run29  dpts:3..16  effs:41600  fails:1632  wrgs:2856  wck:0.61  ngds:140
+    run30  dpts:5..14  effs:46265  fails:1806  wrgs:3167  wck:0.65  ngds:148
+    run31  dpts:4..15  effs:50973  fails:1997  wrgs:3504  wck:0.71  ngds:156
+    run32  dpts:4..14  effs:56157  fails:2208  wrgs:3869  wck:0.76  ngds:164
+    run33  dpts:2..14  effs:63128  fails:2440  wrgs:4289  wck:0.81  ngds:169
+    run34  dpts:2..12  effs:71132  fails:2695  wrgs:4748  wck:0.88  ngds:174
+    run35  dpts:2..12  effs:80741  fails:2976  wrgs:5234  wck:0.96  ngds:183
+    run36  dpts:2..13  effs:91123  fails:3285  wrgs:5803  wck:1.04  ngds:189
+    run37  dpts:3..11  effs:102200  fails:3625  wrgs:6411  wck:1.13  ngds:197
+    run38  dpts:2..13  effs:115824  fails:3999  wrgs:7099  wck:1.25  ngds:204
+    run39  dpts:2..11  effs:130003  fails:4410  wrgs:7829  wck:1.34  ngds:214
+    run40  dpts:2..11  effs:145392  fails:4862  wrgs:8618  wck:1.45  ngds:217
+    run41  dpts:2..12  effs:162898  fails:5359  wrgs:9499  wck:1.57  ngds:226
+    run42  dpts:2..11  effs:182680  fails:5906  wrgs:10484  wck:1.72  ngds:238
+    run43  dpts:1..12  effs:202510  fails:6508  wrgs:11566  wck:1.89  ngds:245
+    run44  dpts:2..12  effs:226072  fails:7170  wrgs:12783  wck:2.05  ngds:256
+    run45  dpts:1..12  effs:252408  fails:7898  wrgs:14132  wck:2.23  ngds:264
+    run46  dpts:1..11  effs:281657  fails:8699  wrgs:15592  wck:2.46  ngds:270
+    run47  dpts:1..11  effs:313557  fails:9580  wrgs:17252  wck:2.69  ngds:275
+    run48  dpts:1..11  effs:346028  fails:10550  wrgs:18967  wck:2.94  ngds:286
+    run49  dpts:0..11  effs:384576  fails:11617  wrgs:20918  wck:3.21  ngds:293
+    run50  dpts:0..11  effs:430204  fails:12790  wrgs:23118  wck:3.78  ngds:298
+    run51  dpts:0..11  effs:448133  fails:13252  wrgs:23991  wck:4.17  ngds:298
+
+  [94mglobal[0m
+    effs:448133  revisions:(18014400,useless=17566267)  ngds:298
+    stop:FULL_EXPLORATION  wrgs:23991
+    wck:5.39  cpu:6.452  mem:82M775
+
+[92ms UNSATISFIABLE[0m
+[92m
+d WRONG DECISIONS[0m 23991
+[92md FOUND SOLUTIONS[0m 0
+[92md COMPLETE EXPLORATION[0m
+
+c real time : 6.456
